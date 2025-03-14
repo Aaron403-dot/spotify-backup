@@ -1,0 +1,205 @@
+body{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    align-content: center;
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+    position: fixed;
+    background-color: white;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    font-size: x-large;
+}
+
+#Logo{
+    width: 9%;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.MTexto{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    color: white;
+}
+
+.foto{
+    width: 2505px;
+    height: 1080px;
+}
+
+.texto-m-a{
+    font-size: xx-large;
+    text-align: center;
+}
+
+.parrafo-h{
+    position: absolute;
+    /* right: 32%; */
+    top: 11%;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    left: 0;
+    right: 0;
+    font-size: 700%;
+    display: inline;
+}
+
+.parrafo-1{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 20%;
+    bottom: 0;
+    margin-bottom: auto;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    display: inline;
+    padding: 10px;
+    
+}
+
+.parrafo-2{
+    position: absolute;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 22%;
+    bottom: 0;
+    margin-bottom: auto;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    display: inline;
+}
+
+.Que{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.WOSPF{
+    font-size: xx-large;
+    text-align: center;
+    text-decoration:underline green;
+    
+}
+
+.uckp{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-content: center;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+.caja{
+    align-content: center;
+    position: relative;
+    width: 600px;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.icono{
+    width: 20%;
+}
+
+.advertisement{
+    color: limegreen;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.Promo{
+    font-size: large;
+}
+
+.ejemplo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: lightgreen;
+    
+}
+
+#app{
+    width: 80%;
+    padding-top: 14%;
+    padding-bottom: 15%;
+    margin-left: 90%;
+}
+
+.textbox{
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2%;
+    color: white;
+    padding-top: 60px;
+}
+
+.med-logo{
+    width: 10%;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.underlined{
+    font-size: xx-large;
+    text-decoration: underline white;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 33%;
+}
+
+.f-ad{
+    font-size: xx-large;
+    text-align: left;
+    padding-left: 33%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
